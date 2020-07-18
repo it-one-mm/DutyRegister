@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DutyRegister"
+        android:fontFamily="@font/font"
+        android:textSize="50dp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:layout_marginVertical="20dp"
+        />
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:id="@+id/adminLay"
+            android:background="@color/colorPrimaryDark"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Admin\nPanel"
+                android:textColor="#fff"
+                android:textSize="40dp"
+                android:fontFamily="@font/font"
+                android:gravity="center"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/userLay"
+            android:layout_margin="10dp"
+            android:background="@color/colorAccent"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="User\nPanel"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="40dp"
+                android:fontFamily="@font/font"
+                android:gravity="center"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    </LinearLayout>
+
+</LinearLayout>

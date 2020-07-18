@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/liner"
+        android:id="@+id/coordinator"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AdminMainPanel">
+
+    <android.widget.ListView
+        android:layout_marginBottom="60dp"
+        android:id="@+id/userViewList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/botApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:menu="@menu/menu"
+            app:fabAlignmentMode="center"
+            app:fabCradleMargin="10dp"
+            app:navigationIcon="@drawable/ic_nav"
+            app:hideOnScroll="true"
+            app:fabCradleRoundedCornerRadius="30dp"
+            app:fabCradleVerticalOffset="0dp"
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floAdd"
+            android:src="@drawable/ic_add_circle_black_24dp"
+            android:backgroundTint="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_anchor="@id/botApp"
+            app:maxImageSize="70dp"
+            />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+
+
+
